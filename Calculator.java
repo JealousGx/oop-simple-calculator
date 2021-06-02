@@ -4,6 +4,9 @@
 // ? AUTHOR: JealousGx 
 // ? CODE COURTESY: © 2021 Geeks 4 Geeks.
 
+// !---- Project Source Code:
+// !---- https://www.geeksforgeeks.org/java-swing-simple-calculator/ ----!
+
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +15,7 @@ class Calculator extends JFrame implements ActionListener {
 	// create a framework
 	static JFrame jFrame;
 
-	// create a textfield
+	// create a text field
 	static JTextField txtField;
 
 	// store operator and operands
@@ -27,8 +30,6 @@ class Calculator extends JFrame implements ActionListener {
 	public static void main(String args[]) {
 		System.out.println("\n\n------------------------");
 		System.out.println("Author: JealousGx");
-		// !---- Project Source Code:
-		// !---- https://www.geeksforgeeks.org/java-swing-simple-calculator/ ----!
 		System.out.println("© 2021 Geeks 4 Geeks - All rights reserved.");
 		System.out.println("------------------------\n\n");
 
@@ -45,10 +46,10 @@ class Calculator extends JFrame implements ActionListener {
 		// create a object of class
 		Calculator calc = new Calculator();
 
-		// create a textfield of 16x16
+		// create a text field of 16 characters
 		txtField = new JTextField(16);
 
-		// set the textfield to non editable
+		// set the text field to non editable
 		txtField.setEditable(false);
 
 		// create number buttons and some operators
